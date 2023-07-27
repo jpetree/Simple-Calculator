@@ -6,8 +6,8 @@ Public Class Form1
         Dim iSecond As Integer
         Dim iResult As Integer
 
-        iFirst = CInt(txtFirst.Text)
-        iSecond = CInt(txtSecond.Text)
+        iFirst = txtFirst.Text
+        iSecond = txtSecond.Text
 
         If listOp.SelectedItem = "+" Then
             iResult = iFirst + iSecond
